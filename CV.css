@@ -5,20 +5,20 @@ address{
 .container {
   display: flex;
   align-items: center;
-  justify-content: center
+  justify-content: space-evenly;
 }
 
 img {
-  max-width: 100%
+  max-width: 100%;
 }
 
 .image {
-  flex-basis: 15%
+  flex-basis: 15%;
 }
 
 .address {
   font-size: 20px;
-  padding-left: 20px;
+  margin-right: 200px;
 }
 
 body,div{
@@ -29,7 +29,7 @@ body,div{
 }
 
 body{
-    background-color: peachpuff;
+    background-color: #92828D;
     display: inline-block;
 }
 
@@ -37,11 +37,17 @@ div{
     border-style: double;
     border-radius: 12px;
     padding: 0px 20px 0px 20px;
-    background-color: oldlace;
+    background-color: #ADAABF;
 }
 
 p{
     margin: 0px 5px 5px 0px;
+    font-size: 18px;
+}
+
+h4{
+    font-size: 20px;
+    text-decoration-line: underline;
 }
 
 aside{
