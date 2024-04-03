@@ -9,7 +9,7 @@ address{
 }
 
 .image{
-  background-image: url(\yakub.jpg);
+  background-image: url(/test/yakub.jpg);
   background-size: cover;
   width: 150px;
   height: 150px;
